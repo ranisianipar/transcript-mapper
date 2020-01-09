@@ -1,0 +1,1 @@
+web: gunicorn transcript-mapper.wsgi:application --log-file -
